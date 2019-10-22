@@ -1,0 +1,59 @@
+body {
+  scroll-behavior: smooth !important;
+  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
+  webkit-app-region: no-drag;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "GoogleSans";
+  src: url("../font/GoogleSans-Regular.ttf");
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.application {
+  font-family: 'GoogleSans', 'Roboto', sans-serif;
+}
+
+.content-scroll {
+  /*height: calc(100% - 100px);*/
+  /*height: -moz-calc(100% - 100px);*/
+  /*height: -webkit-calc(100% - 100px);*/
+  overflow-y: scroll;
+  scroll-behavior: smooth !important;
+  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+
+.light-input .v-input__slot {
+  border: 1px solid #d5d5d5 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.input--text-center input {
+  margin-top: 13px !important;
+}
